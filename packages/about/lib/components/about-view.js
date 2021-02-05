@@ -188,6 +188,12 @@ module.exports = class AboutView extends EtchComponent {
       ),
 
       $.div(
+        { className: 'dev-credits'},
+        $.span({className: 'inline'}, 'Fork by team AAOT comprised of: '),
+        $.span({className: 'inline'}, 'Andres Sewell, Austin Lyman, Olga Novichkova, Tanner Webb')
+      ),
+
+      $.div(
         { className: 'about-love group-start' },
         $.span({ className: 'icon icon-code' }),
         $.span({ className: 'inline' }, ' with '),
